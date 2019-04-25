@@ -9,7 +9,7 @@
     <meta name="author" content="">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-    <title>Daniel Green - Web Developer</title>
+    <title>Daniel Green - Front End Web Developer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,22 +26,10 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
-    <style>
-    
-    @media only screen and (max-width: 600px) {
-  #me {
-    display:none;
-  }
-}
-    #textarea1{
-      background-color:rgba(0, 0, 0, 0.2);
-      border-radius: 10px;
-    }
-    </style>
-
   </head>
 
   <body id="page-top">
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -63,6 +51,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Get in Touch</a>
             </li>
+		    <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#gapanalysis">Gap Analysis</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -73,19 +64,14 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>WEB DEVELOPER</strong>
-              <P>Based out of Halifax, NS</P>
+              <strong>Front End Web Developer</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p id="textarea1" class="text-faded mb-5"> Welcome to my portfolio website. I am a hard working developer on track to graduate from the Web Development program
-              at NSCC this June. I am eager to get established and start applying my knowledge in the IT industry. With a positive attitude along with the ability to work well with others,
-              I hope you consider giving me a chance.
-            </p>
-      
-      <img id="me" src="me.png"><br><br>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">My Skills and Strengths</a>
+            <p class="text-faded mb-5"> Thank you for taking the time to check out my website. I am going into my second year of web development at the NSCC Institute of Technology Campus 
+			in Halifax, Nova Scotia. Feel free to look through my skills and work portfolio below.		</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About me</a>
           </div>
         </div>
       </div>
@@ -97,34 +83,15 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">My skills and strengths</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">
-            
-              Some of the programming languages I am most familiar with include HTML, CSS, JavaScript, PHP, SQL, Java, and C#. I am also experienced working with various
-              web frameworks and libraries such as Laravel, ASP.NET, React, CreateJS, Bootstap and jQuery. I use Git for version control organization on all of the projects I work on, and I am
-		    comfortable developing in both Linux and Windows environments. 
-            </p>
-
-<p  class="text-faded mb-4">
-     I enjoy developing with content management systems such as Drupal and Wordpress, and 
-    have worked on theme and plugin customization for both. In addition, I am able to create child themes based off of already existing themes - fully customized as needed.
-</p>
-
-            <p class="text-faded mb-4">
-            
-           I also bring some marketing and SEO knowledge to the table.  Having been involved with various e-commerce ventures and affiliate marketing networks,
-           I have experience running campaigns on platforms such as Facebook, Bing, Google, etc. In addition to this, I very passionate about monitering analytics
-           and using all the data I have access to gain a better insight and produce better results. 
-
-              </p>
-
-              <p class="text-faded mb-4">
-
-                Please feel free to browse some of my work samples below.
-              </p>
-              <br>
+            <p class="text-faded mb-4">With a strong mix of coding skills, buisness knowledge, and social media expertise - I have quite a broad set of skills to offer to any team or project.
+			While I am most experienced working with HTML, CSS and JavaScript, I am also able to design web and mobile applications in Java. I also have a strong grasp on fundamental networking 
+			and web server concepts, and can work productively in either a Windows or Unix environment. </p>
  <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Check out my Work</a>
-
 <br>
+<br>
+<br>
+<br>
+<img id="me" src="me.png">
 <br>
 <br>
           </div>
@@ -258,6 +225,12 @@
 <br>
 <br>
 <br>
+	  
+	    <section id="gapanalysis">
+		    
+		    <h1>Content Here</h1>
+
+    </section>
 
 
     <section id="contact">
@@ -266,10 +239,30 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
+<form>
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+  </div>
+  
+  <div class="form-group">
+	  <select class="custom-select">
+		  <option selected>Select a topic</option>
+		  <option value="1">Web Development</option>
+		  <option value="2">Search Engine Optimization</option>
+		  <option value="3">Digital Marketing</option>
+      </select>
+	</div>
+  
+  <div class="form-group">
+  <textarea class="form-control" rows="5" placeholder="Write a message..." id="comment"></textarea>
+</div>
 
-            <p>If you would like to find out more information about me and what I can do - please feel free to contact me any time
-               by via phone or email listed below. I would love to hear from you. 
-            </p>
+ <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Submit</a>
+  </form>
   
           </div>
         </div>
